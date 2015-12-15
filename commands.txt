@@ -1,0 +1,16 @@
+Initiate and exit a Python console
+> python
+>>> exit()
+
+Create and activate an virtual environment
+> python -m venv [myvenv]
+> [myvenv]\Scripts\activate
+
+Start & implement projects
+> django-admin startproject [mysite] .   // start a new project
+> python manage.py migrate   // start up database
+> python manage.py runserver   // start a local web server at http://127.0.0.1:8000/
+> python manage.py startapp [myapp]   // start an app
+> python manage.py makemigrations [myapp]   // prepare changes to database
+> python manage.py migrate [myapp]   // apply changes to database
+> python manage.py createsuperuser   // create a superuser/admin account
