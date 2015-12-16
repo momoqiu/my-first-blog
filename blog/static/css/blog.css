@@ -1,0 +1,35 @@
+.page-header {
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.page-content {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'PT Sans';
+}
+
+
+.date {
+    float: right;
+    color: #828282;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post-text {
+    font-family: 'Roboto';
+}
