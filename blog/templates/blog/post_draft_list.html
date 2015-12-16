@@ -5,7 +5,8 @@
       <div class="post">
 
         <div class="date-right">
-            <p>Last modified on {{ post.last_modify_date|date:'d-b-Y' }}</p>
+            <p>Last modified on {{ post.last_modify_date|date:'d-b-Y' }} <a class="btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>
+            </p>
         </div>
 
         <div class="post-title">
@@ -15,7 +16,7 @@
 
         <div class="post-text">
           <p>{{ post.text|linebreaks }}</p>
-          <a class="btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>
+
         </div>
 
       </div>
