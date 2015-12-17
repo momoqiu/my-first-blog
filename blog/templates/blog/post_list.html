@@ -13,7 +13,11 @@
         <div class="post-text">
           <p>{{ post.text|linebreaks }}</p>
         </div>
-
+        <a href="{% url 'blog.views.post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}
+          {% if user.is_authenticated and post.unapproved_comments.count > 0 %}
+            | Unapproved Comments:{{ post.unapproved_comments.count }}
+          {% endif %}
+        </a>
       </div>
     {% endfor %}
 {% endblock %}

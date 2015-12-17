@@ -17,8 +17,8 @@ Head Section Formatting
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 20pt;
-    margin-right: 20px;
+    font-size: 18pt;
+    margin-right: 12px;
 }
 
 .login-greeting {
@@ -26,7 +26,7 @@ Head Section Formatting
   float: right;
   font-size: 14pt;
   margin-right: 20px;
-  font-family: 'Roboto';
+  font-family: 'PT Sans';
 }
 
 .login-greeting a {
@@ -83,4 +83,9 @@ h1, h2, h3, h4 {
 
 .post-text {
     font-family: 'Roboto';
+}
+
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
